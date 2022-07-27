@@ -28,17 +28,20 @@ function logIn() {
 
   return (
     <div class="entry">
+      <div class="welcomeContainer">
+        <h2>Welcome</h2>
+      </div>
         <label for="user">Username</label>
-        <input type="text" placeholder="Enter Username" required></input>
+        <input class="input" type="text" placeholder="Enter Username" required></input>
 
         <label for="pass">Password</label>
-        <input type="text" placeholder="Enter Password" required></input>
+        <input class="input" type="text" placeholder="Enter Password" required></input>
 
-        <button type="submit">Login</button>
+        <button class="styledButton" type="submit">Login</button>
         <label type="checkbox" checked="checked">Remember Me</label>
 
-        <button type="submit">Forgot Password</button>
-        <button type="submit" a href ="./signUp">Sign Up</button>
+        <button class="styledButton" type="submit">Forgot Password</button>
+        <button class="styledButton" type="submit" a href ="./signUp">Sign Up</button>
     </div>
   );
 }
