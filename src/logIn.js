@@ -3,7 +3,9 @@ import './App.css';
 function logIn() {
   return (
     <div class="entry">
-      <div class="welcomeContainer">WELCOME</div>
+      <div class="welcomeContainer">
+        <h2>Welcome</h2>
+      </div>
         <label for="user">Username</label>
         <input class="input" type="text" placeholder="Enter Username" required></input>
 
