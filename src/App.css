@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 128, 128); /* placeholder */
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
