@@ -1,5 +1,5 @@
 import './App.css';
-import './logIn';
+import './LogIn';
 
 function signUp() {
   return (
